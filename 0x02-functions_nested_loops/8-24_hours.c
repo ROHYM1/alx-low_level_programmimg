@@ -2,7 +2,8 @@
 
 /**
  * jaack_bauer - function that prints every minutes of jack
- * n from 00:00 to 23:59, min loop counts mins, hour loop counts hours
+ * n from 00:00 to 23:59, min loop counts mins, while hour loop counts hours
+ * and resets mins
  * Return: 0
  */
 void jack_bauer(void)
