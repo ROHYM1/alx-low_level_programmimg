@@ -24,7 +24,7 @@ void jack_bauer(void)
 	
 	{
 	  
-	  hours_remider = hours % 10;
+	  hours_remaider = hours % 10;
 	  
 	  _putchar(hours / 10 + '0');
 	  
