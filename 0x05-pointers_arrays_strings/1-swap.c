@@ -11,10 +11,10 @@
 void _swap(int *a, int *b);
 
 {
-	int c = *a;
+	int c = *b;
+	{
+	*b = *a;
 
-	*a = *b;
-
-	  *b = c;
-
+	  *a = c;
+	}
 }
