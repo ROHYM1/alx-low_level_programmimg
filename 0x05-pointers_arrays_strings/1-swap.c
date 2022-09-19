@@ -5,7 +5,7 @@
   * _swap - swap the value of two integers
   * @a: first number
   * @b: second numbe
-  * Return: returns result
+  * Return: nothing
   */
 
 void _swap(int *a, int *b);
