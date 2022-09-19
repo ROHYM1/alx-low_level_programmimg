@@ -2,19 +2,19 @@
 #include "main.h"
 
  /**
-  * swap_int - swap the value of two integers
+  * _swap - swap the value of two integers
   * @a: first number
   * @b: second numbe
   * Return: returns result
   */
 
-void swap_int(int *a, int *b);
+void _swap(int *a, int *b);
 
 {
-	int c = *b;
+	int c = *a;
 
-	*b = *a;
+	*a = *b;
 
-	  *a = c;
+	  *b = c;
 
 }
