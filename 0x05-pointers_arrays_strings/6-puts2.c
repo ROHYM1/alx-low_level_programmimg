@@ -10,14 +10,14 @@
 void puts2(char *str)
 {
 	int k = 0;
-	
+
 	while (*(str + k) != '\0')
 	{
 	if (k % 2 == 0)
 
 		putchar(*(str + k));
 
-	k++;
+	k++
 
 	}
 	putchar(10);
