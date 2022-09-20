@@ -11,6 +11,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int xy;
+
 	xy = 0;
 
 	while (xy >= 0)
