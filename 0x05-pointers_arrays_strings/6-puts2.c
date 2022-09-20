@@ -17,7 +17,7 @@ void puts2(char *str)
 
 		putchar(*(str + k));
 
-	k++
+	k++;
 
 	}
 	putchar(10);
