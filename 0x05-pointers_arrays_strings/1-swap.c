@@ -7,9 +7,8 @@
   * @b: second numbe
   * Return: nothing
   */
-
 void swap_int(int *a, int *b);
-void main()
+
 {
 	int tmp = *a;
 	*a = *b;
