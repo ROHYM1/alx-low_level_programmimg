@@ -14,8 +14,11 @@ void puts2(char *str)
 	while (*(str + k) != '\0')
 	{
 	if (k % 2 == 0)
-	putchar(*(str + k));
-	k++
+
+		putchar(*(str + k));
+
+	k++;
+
 	}
 	putchar(10);
 
