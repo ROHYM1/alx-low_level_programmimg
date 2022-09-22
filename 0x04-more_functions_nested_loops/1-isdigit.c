@@ -5,7 +5,7 @@
  * @c: character to be tested
  * Return: 1 wether it is, 0 otherwise
  */
-init _isdigit(int c)
+int _isdigit(int c)
 {
 
 if ((c >= 48) && (c <= 57))
