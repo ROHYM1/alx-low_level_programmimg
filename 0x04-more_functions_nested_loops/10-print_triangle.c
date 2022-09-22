@@ -18,7 +18,7 @@ for (p = 1; p <= size; p++)
 for (q = size - p; q > 0; q--)
 
 putchar(' ');
- 
+
 for (q = p; q > 0; q--)
 putchar('#');
 putchar('\n');
