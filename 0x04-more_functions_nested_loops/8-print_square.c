@@ -7,26 +7,14 @@
  * Return: returns nothing
  */
 void print_square(int size)
+{
+int x, y;
+
+for (y = 0; y < size; y++)
 
 {
 
-int inc1, inc2;
-
-if (size > 0)
-
-{
-
-for (inc1 = 0; inc1 < size; inc1++)
-
-{
-
-for (inc12 = 0; inc2 < (size - 1); inc2++)
-
-{
-
-putchar('#');
-
-}
+for (x = 0; x < size; x++)
 
 putchar('#');
 
@@ -34,14 +22,7 @@ putchar('\n');
 
 }
 
-}
-
-else
-
-{
+if (size < 1)
 
 putchar('\n');
-
-}
-
 }
