@@ -19,6 +19,6 @@ putchar(n);
 
 }
 
-putchar(10);
+putchar('\n');
 
 }
