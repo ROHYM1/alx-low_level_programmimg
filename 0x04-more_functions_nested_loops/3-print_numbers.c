@@ -3,7 +3,7 @@
 
 /**
  * print numbers - function that print all numbers from 0 to 9
- *
+ * @n:
  * Return: returns nothing
  */
 void print_numbers(void)
