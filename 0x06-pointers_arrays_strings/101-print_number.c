@@ -9,7 +9,7 @@
 void print_number(int n)
 {
 int m, d, count;
-int num = n;
+
 if (n < 0)
 {
 _putchar(45);
