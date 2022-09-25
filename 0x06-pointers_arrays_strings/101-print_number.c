@@ -16,7 +16,7 @@ return;
 else if (n > 0)
 
 n *= -1;
-else    
+else
 _putchar('-');
 if ((n / 10) != 0)
 {
