@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <limit.h>
 
 /**
  * print_number - prints an integer
